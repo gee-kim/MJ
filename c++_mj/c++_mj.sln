@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "c++_mj", "c++_mj\c++_mj.vcxproj", "{7487D424-E584-49FA-B955-5A33133623AE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{51F4C92A-E1FA-4083-B37D-4360B4389B83} = {51F4C92A-E1FA-4083-B37D-4360B4389B83}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyPrintf", "MyPrintf\MyPrintf.vcxproj", "{E015DF1A-5955-49F4-9900-F091052C01BF}"
 EndProject
@@ -28,6 +31,12 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TextRpg", "TextRpg\TextRpg.vcxproj", "{BE03D7C9-02C0-4833-A6BF-67D3AE2C3F69}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stringContains", "stringContains\stringContains.vcxproj", "{CAAEB533-F961-480B-9EAC-DD7B1CDD67CA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleEngine", "ConsoleEngine\ConsoleEngine.vcxproj", "{51F4C92A-E1FA-4083-B37D-4360B4389B83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{4CBAF4B7-10D3-4A80-A31A-3C68D4B61985}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Galaga", "Galaga\Galaga.vcxproj", "{8E50CBDD-AE7E-4C38-B518-C131327F2149}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -133,6 +142,22 @@ Global
 		{CAAEB533-F961-480B-9EAC-DD7B1CDD67CA}.Release|x64.Build.0 = Release|x64
 		{CAAEB533-F961-480B-9EAC-DD7B1CDD67CA}.Release|x86.ActiveCfg = Release|Win32
 		{CAAEB533-F961-480B-9EAC-DD7B1CDD67CA}.Release|x86.Build.0 = Release|Win32
+		{51F4C92A-E1FA-4083-B37D-4360B4389B83}.Debug|x64.ActiveCfg = Debug|x64
+		{51F4C92A-E1FA-4083-B37D-4360B4389B83}.Debug|x64.Build.0 = Debug|x64
+		{51F4C92A-E1FA-4083-B37D-4360B4389B83}.Debug|x86.ActiveCfg = Debug|Win32
+		{51F4C92A-E1FA-4083-B37D-4360B4389B83}.Debug|x86.Build.0 = Debug|Win32
+		{51F4C92A-E1FA-4083-B37D-4360B4389B83}.Release|x64.ActiveCfg = Release|x64
+		{51F4C92A-E1FA-4083-B37D-4360B4389B83}.Release|x64.Build.0 = Release|x64
+		{51F4C92A-E1FA-4083-B37D-4360B4389B83}.Release|x86.ActiveCfg = Release|Win32
+		{51F4C92A-E1FA-4083-B37D-4360B4389B83}.Release|x86.Build.0 = Release|Win32
+		{8E50CBDD-AE7E-4C38-B518-C131327F2149}.Debug|x64.ActiveCfg = Debug|x64
+		{8E50CBDD-AE7E-4C38-B518-C131327F2149}.Debug|x64.Build.0 = Debug|x64
+		{8E50CBDD-AE7E-4C38-B518-C131327F2149}.Debug|x86.ActiveCfg = Debug|Win32
+		{8E50CBDD-AE7E-4C38-B518-C131327F2149}.Debug|x86.Build.0 = Debug|Win32
+		{8E50CBDD-AE7E-4C38-B518-C131327F2149}.Release|x64.ActiveCfg = Release|x64
+		{8E50CBDD-AE7E-4C38-B518-C131327F2149}.Release|x64.Build.0 = Release|x64
+		{8E50CBDD-AE7E-4C38-B518-C131327F2149}.Release|x86.ActiveCfg = Release|Win32
+		{8E50CBDD-AE7E-4C38-B518-C131327F2149}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -142,6 +167,8 @@ Global
 		{8F8C1DE3-B5A1-4B86-860E-43A684532F15} = {C9BBF7B9-9A80-4EE0-AFA4-95DE44DEDDD2}
 		{7095C509-4D30-4D76-B88D-4DCC03A4F724} = {C9BBF7B9-9A80-4EE0-AFA4-95DE44DEDDD2}
 		{7CE6E87C-AABD-4287-9339-B540E298B9F4} = {C9BBF7B9-9A80-4EE0-AFA4-95DE44DEDDD2}
+		{51F4C92A-E1FA-4083-B37D-4360B4389B83} = {4CBAF4B7-10D3-4A80-A31A-3C68D4B61985}
+		{8E50CBDD-AE7E-4C38-B518-C131327F2149} = {C9BBF7B9-9A80-4EE0-AFA4-95DE44DEDDD2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4A76BE1-56D9-431C-A6AD-AA4D0A9B6BA5}
